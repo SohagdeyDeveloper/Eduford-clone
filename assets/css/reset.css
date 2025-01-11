@@ -62,8 +62,7 @@ html{
     width: min(1686px, 100%);
     padding-inline: 15px;
     margin-inline: auto;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
+    
 }
 
 a{
