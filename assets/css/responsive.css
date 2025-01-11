@@ -1,0 +1,167 @@
+/* 
+Breakpoints 
+1600
+1440
+1366
+1280
+1199
+1024
+991
+768
+650
+575
+480
+420
+350
+300 px */
+
+
+/* 1600px responsive */
+@media only screen and (max-width: 1600px){
+    
+}
+
+/* 1440px responsive */
+@media only screen and (max-width: 1440px){
+    .hero-sec .container .hero-text h1{
+        color: blue;    
+    } 
+    .banner-section header .container .primary-header .logo-block img{
+        max-width: 80px;
+    }
+    .banner-section{
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+   .testimonials-section .flex-wrap{
+    flex-wrap: wrap;
+   }
+}
+
+/* 768px responsive */
+@media only screen and (max-width: 768px){
+    .hero-sec .container .hero-text h1{
+        color: blue;   
+    }
+    .banner-section header .container .primary-header .logo-block{
+        width: 30px;
+    }
+    .banner-section header .container .primary-header .mobile-menu {
+        display: block;
+    }
+    .banner-section header .primary-header .nav-links{
+        display: none;
+    }
+
+    .banner-section .hero-sec .hero-text a{
+        padding: 15px 26px;
+    }
+    
+    .banner-section{
+        height: 600px;
+    }
+    .cards-section .all-cards{
+        flex-wrap: wrap;
+        gap: 30;
+    }
+    .cards-section .all-cards .card {
+        background-color: rgb(114, 97, 241);
+        width: 100%;
+        padding: 40px 20px;
+
+    }
+    .cards-section .all-cards .card h3:nth-child(1){
+        font-size: 25px;
+        color: yellow;
+    }
+    .cards-section .all-cards .card p{
+        color: #ffffff;
+    }
+    .card-image-section .container .all-cards{
+        flex-wrap: wrap;
+        gap: 30px;  
+    }
+    .card-image-section .container .all-cards .card{
+        width: 100%;
+        
+    }
+    .our-facilities-section .all-cards{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .our-facilities-section .all-cards {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .what-our-student-section .all-cards .card{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .enroll-banner-section .banner{
+        flex-wrap: wrap;
+    }
+
+}   
+
+/* 650px responsive */
+ @media only screen and (max-width: 650px){
+    
+    .banner-section{
+        height: 600px;
+    }
+}
+
+/* 575px responsive */
+ @media only screen and (max-width: 575px){
+    
+    .banner-section{
+        height: 600px;
+    }
+}
+
+/* 480px responsive */
+ @media only screen and (max-width: 480px){
+    
+    .banner-section{
+        height: 600px;
+    }
+}
+
+/* 420px responsive */
+ @media only screen and (max-width: 420px){
+    
+    .banner-section{
+        height: 600px;
+    }
+}
+
+/* 350px responsive */
+ @media only screen and (max-width: 350px){
+    
+    .banner-section{
+        height: 600px;
+    }
+    .banner-section .hero-sec .hero-text h1{
+        font-size: 30px;
+    }
+}
+
+/* 300px responsive */
+ @media only screen and (max-width: 300px){
+    
+    .banner-section{
+        height: 600px;
+    }
+    .banner-section .hero-sec .hero-text h1{
+        font-size: 25px;
+        
+    }
+}
+        
+
+
+
+
+
